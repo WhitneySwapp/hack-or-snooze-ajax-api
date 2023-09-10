@@ -1,0 +1,81 @@
+
+body {
+ height: 200vh;
+ background: radial-gradient(#e8b7bb, #899ee0);
+ background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  background-color: #df5924;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  margin: 0 3px;
+  color: black;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+  color: black;
+}
+
+/* Story List */
+.stories-container{
+  background-color: #eef0eb;
+  
+}
+
+.story-link{
+  color: black;
+  font-weight: bold;
+}
+
+.story-hostname{
+  color: #787681;
+}
+
+.story-author{
+  color: rgb(2, 136, 2);
+  font-weight: bold;
+  display: block;
+}
+
+.story-user{
+  color: orange;
+  font-weight: bold;
+  display: block;
+  padding: 0px 20px 0px;
+}
+
+
+.trash-can:hover {
+  color: red ;
+}
+
+/* User Profile */
+
+.user-profile-box {
+  padding: 10px 20px 20px;
+
+}
+
+
+/* Code Referenced:
+https://stackoverflow.com/questions/21467011/how-can-i-change-the-background-color-of-input-fields-of-text-type-when-entering 
+https://www.w3schools.com/cssref/sel_hover.php
+https://css-tricks.com/radial-gradient-recipes/
+https://www.w3schools.com/css/css_padding.asp
+https://www.w3schools.com/css/css_text_spacing.asp
+*/
